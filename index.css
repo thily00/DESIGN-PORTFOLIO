@@ -35,7 +35,22 @@ footer{
 }
 
 .img{
-    width:  365px;
-    height: 370px;
+    width:  325px;
+    height: 325px;
     background-size: cover;
 }     
+
+.logo{
+    width: 200px;
+}
+
+@media screen and (max-width: 320px) {
+    .logo{
+        width: 100px;
+    }
+    .img{
+        width:  290px;
+        height: 325px;
+        background-size: cover;
+    }    
+  }
